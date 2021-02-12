@@ -1,6 +1,19 @@
 # cars-shopping-backend
 
 # Full Stack coding challenge - Cognizant
+
+GET API to fetch the list of cars service was down, hence I used the JSON file to load the data into the frontend.
+That the json which I downloaded initially, when I got the test details. Hence I used same json to continue the task.
+
+If API is up and running, I would have used RestTemplate to consume the data in the WarehouseAPIIntegration class.
+There is a method which is already commented for API call which is causing an Exception, even I handled that at application level and returning an custom error.
+
+{
+  "code": "403",
+  "status": "FORBIDDEN",
+  "timestamp": "2021-02-12T09:59:13.5987475",
+  "message": "403 Forbidden: [{\"message\":\"API Requests Quota is Exhausted. Purchase more requests at https://jsonbin.io/pricing.\",\"success\":false}]"
+}
 		
 #Technology stack:
 		Java 11, Spring Boot, Swagger,  MAVEN, Junit, mockito, 	Springtoolsuite.exe
